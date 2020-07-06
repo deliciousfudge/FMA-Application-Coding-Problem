@@ -5,7 +5,7 @@ The following is a console based version of Tic Tac Toe that allows two human pl
 It's really simple. The first player will be the X, the second player will be the O. You keep playing the game until there is a winner, a draw, or someone gives up.
 
 ### Running the Program
-Included in this repository is a file called TicTacToe.zip. Unzip this to a local folder of your choice and open TicTacToe.exe to run the program.
+Included in the releases section of this repository is a file called TicTacToe.zip. Unzip this to a local folder of your choice and open TicTacToe.exe to run the program.
 
 ### Assumptions Made
 * As no style guide was provided with the project brief, I have tried to keep to the official C# coding conventions except where mentioned otherwise below: https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/inside-a-program/coding-conventions.
@@ -16,7 +16,7 @@ Included in this repository is a file called TicTacToe.zip. Unzip this to a loca
 * The program may be modified in future, so I have structured the code in a way that makes it easily extendable.
 
 ### Config File
-Included with the TicTacToe.exe is a file called TicTacToe.exe.config. This can be modified with any text editor and contains a number of custom settings in the <appSettings> section.
+Included with TicTacToe.exe is a file called TicTacToe.exe.config. This can be modified with any text editor and contains a number of custom settings in the <appSettings> section.
 
 * VacantSymbol, Player1Symbol, and Player2Symbol contain chars used to represent each of the pieces (empty cell, player 1, player 2) on the board. Only values between 1 and 5 characters are accepted.
 * BoardScale represents the scale of the board. Only values between 3 and 255 are accepted.
